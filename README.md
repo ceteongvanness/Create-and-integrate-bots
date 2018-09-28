@@ -10,6 +10,6 @@
 - Set **App name** to your bot's name. The name is used as the subdomain when your bot is deployed to the cloud (for example, etbotdemo.azurewebsites.net). This name is also used as the name of the LUIS app associated with your bot. Copy it to use later, to find the LUIS app associated with the the bot.
 - Select the subscription, resource group, App service plan, and location.
 - Select the **Language understanding (C#)** (SDK version: SDK v3)template for the **Bot template** field.
-![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A4.png)
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A4-1.png)
 
 
