@@ -11,5 +11,10 @@
 - Select the subscription, resource group, App service plan, and location.
 - Select the **Language understanding (C#)** (SDK version: SDK v3)template for the **Bot template** field.
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A4-1.png)
+4. Confirm that the bot has been deployed by checking the Notifications will change from **Deployment in progress** to **Deployment succeeded**. Click ** Go to resource** button to open the bot's resources blade.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A5.png)
+Once the bot is registered, click **Test in Web Chat** to open the Web Chat pane. Type "hello" in Web Chat.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A6.png)
+
 
 
