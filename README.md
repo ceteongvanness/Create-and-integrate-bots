@@ -16,5 +16,7 @@
 Once the bot is registered, click **Test in Web Chat** to open the Web Chat pane. Type "hello" in Web Chat.
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A6.png)
 
+The bot responds by saying "You have reached Greeting. You said: hello". This confirms that the bot has received your message and passed it to a default LUIS app that it created. This default LUIS app detected a Greeting intent.
+
 
 
