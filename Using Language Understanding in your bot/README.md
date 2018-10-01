@@ -39,5 +39,25 @@ The following steps add the Note.Create, Note.ReadAloud, and Note.Delete intents
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A10.png)
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A11.png)
 
+3. The only intents that should remain in the LUIS app are the following:
+- Note.ReadAloud
+- Note.Create
+- None
+- Help
+- Greeting
+- Cancel
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A12.png)
+
+4. Click the **Train** button in the upper right to train your app.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A13.png)
+
+5. Click **PUBLISH** in the top navigation bar to open the **Publish** page.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A14.png)
+
+	Click the **Publish to production slot**button.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A15.png)
+
+	After successful publish, copy the URL displayed in the **Endpoint** column the **Publish App** page, in the row that starts with the Resource Name Starter_Key. Save this URL to use later in your bot's code. The URL has a format similar to this example:
+https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/3ad44df2-7789-4628-b09a-668c96699b1a?subscription-key=066a52d6483a419495da9277cebaea00&timezoneOffset=-360&q=
 
 
