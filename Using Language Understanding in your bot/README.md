@@ -59,5 +59,5 @@ The following steps add the Note.Create, Note.ReadAloud, and Note.Delete intents
 
 	After successful publish, copy the URL displayed in the **Endpoint** column the **Publish App** page, in the row that starts with the Resource Name Starter_Key. Save this URL to use later in your bot's code. The URL has a format similar to this example:
 https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/3ad44df2-7789-4628-b09a-668c96699b1a?subscription-key=066a52d6483a419495da9277cebaea00&timezoneOffset=-360&q=
-
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A16.png)
 
