@@ -18,13 +18,26 @@ Once the bot is registered, click **Test in Web Chat** to open the Web Chat pane
 The bot responds by saying "You have reached Greeting. You said: hello". This confirms that the bot has received your message and passed it to a default LUIS app that it created. This default LUIS app detected a Greeting intent.
 
 ### Modify the LUIS app
-1.Log in to **https://www.luis.ai** using the same account you use log in to Azure. Click on **My apps**. in the list of apps, find the app that begins with the name specified in **App name** in the **Bot Service** blade when you created the Bot Service.
+Log in to **https://www.luis.ai** using the same account you use log in to Azure. Click on **My apps**. in the list of apps, find the app that begins with the name specified in **App name** in the **Bot Service** blade when you created the Bot Service.
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A7.png)
 
 The LUIS app starts with 4 intents: Cancel, Greeting, Help, and None.
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A8.png)
 
 The following steps add the Note.Create, Note.ReadAloud, and Note.Delete intents:
+1. Click on Prebuilt Domians in the lower left of the page. Find the Note domain and click Add domain.
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A9.png)
+
+2. We aren't going to use all of the intents included in the **Note** prebuilt domain. In the **Intents** page, click on each of the following intent names and then click the **Delete Intent** button.
+
+- Note.ShowNext
+- Note.DeleteNoteItem
+- Note.Confirm
+- Note.Clear
+- Note.CheckOffItem
+- Note.AddToNote
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A10.png)
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A11.png)
 
 
 
