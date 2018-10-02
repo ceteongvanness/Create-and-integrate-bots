@@ -61,3 +61,13 @@ The following steps add the Note.Create, Note.ReadAloud, and Note.Delete intents
 https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/3ad44df2-7789-4628-b09a-668c96699b1a?subscription-key=066a52d6483a419495da9277cebaea00&timezoneOffset=-360&q=
 ![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A16.png)
 
+### Modify the bot code
+1. Click **Build** and then click **Open online code editor**
+![](https://github.com/ceteongvanness/Create-and-integrate-bots/blob/master/Image/AZR-A17.png)
+
+2. In the code editor, open **BasicLuisDialog.cs**. It contains the following code for handling from the LUIS app.
+
+	```
+	
+	```
+
